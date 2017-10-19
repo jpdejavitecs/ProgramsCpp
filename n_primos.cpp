@@ -33,22 +33,22 @@ int verifica_primo(int numero){
 }
 
 
-// int main (){
-// 	int numero;
-// 	int i = 2;
-// 	int contador = 0;
+int main (){
+	int numero;
+	int i = 2;
+	int contador = 0;
 
-// 	cout << "Até que número verificar a primalidade: ";
-// 	cin >> numero;
+	cout << "Até que número verificar a primalidade: ";
+	cin >> numero;
 
-// 	for (i; i <= numero; i++){
-// 		if (verifica_primo(i) == 0){
-// 			cout << i << endl;
-// 			contador++;
-// 		}
-// 	}
+	for (i; i <= numero; i++){
+		if (verifica_primo(i) == 0){
+			cout << i << endl;
+			contador++;
+		}
+	}
 
-// 	printf("Total de primos: %d\n",contador); 
+	printf("Total de primos: %d\n",contador); 
 
-// 	return 0;
-// }
+	return 0;
+}

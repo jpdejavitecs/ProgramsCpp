@@ -10,22 +10,19 @@ int main () {
 	float r;
 	float x1, x2;
 
-	cout << "Digite o valor de A: " << endl;
+	cout << "Digite o valor de A: ";
 	cin >> a;
-	cout << "  " << a << endl;
-	cout << "Digite o valor de B: " << endl;
+	cout << "Digite o valor de B: ";
 	cin >> b;
-	cout << "  " << b << endl;
-	cout << "Digite o valor de C: " << endl;
+	cout << "Digite o valor de C: ";
 	cin >> c;
-	cout << "  " << c << endl;
 
 	delta = pow(b,2)-(4*a*c);
 
-	cout << delta << endl;
+	//cout << delta << endl;
 
 	if (delta < 0)
-		cout << "Esta equação não possui raízes reais" << endl;
+		cout << "Esta equação não possui raízes reais pois o delta é: " << delta << endl;
 	else{
 		if (delta == 0){
 			r = - b / (2 * a);
